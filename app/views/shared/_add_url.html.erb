@@ -1,0 +1,8 @@
+
+<div class="add_url">
+   <%= form_tag('/add_url') do %>
+    <%= text_field_tag(:item_url, nil, :placeholder => 'Manually add a URL for an item') %>
+    <%= submit_tag('GET THIS ITEM', :id => 'add_url_button', :class=> 'button')%>
+    <% binding.pry %>
+  <% end %>
+</div>
