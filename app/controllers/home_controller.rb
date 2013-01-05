@@ -14,6 +14,7 @@ class HomeController < ApplicationController
   def add_url
     item_url = params[:item_url]
     raw_data = HTTParty.get("#{item_url}")
+    doc = Nokogiri::HTML(open('#{item_url}'))
     binding.pry
   end
 
