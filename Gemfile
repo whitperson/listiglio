@@ -36,4 +36,5 @@ group :development do
   gem 'httparty'
   gem 'twitter'
   gem 'aws-ses'
+  gem 'amazon-ecs'
   gem 'nokogiri'

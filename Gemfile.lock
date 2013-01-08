@@ -29,6 +29,9 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     addressable (2.3.2)
+    amazon-ecs (2.2.4)
+      nokogiri (~> 1.4)
+      ruby-hmac (~> 0.3)
     annotate (2.5.0)
       rake
     arel (3.0.2)
@@ -226,6 +229,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  amazon-ecs
   annotate
   aws-ses
   bcrypt-ruby

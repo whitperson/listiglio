@@ -3,7 +3,7 @@ Listiglio::Application.routes.draw do
   resources :users
   resources :items
 
-  post '/add_url' => 'home#index', :as => 'add_url'
+  post '/add_url' => 'home#add_url'
 
   get '/register' => 'register#new'
   post '/register' => 'register#create'
